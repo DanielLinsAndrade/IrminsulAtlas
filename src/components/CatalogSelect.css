@@ -1,0 +1,12 @@
+.catalog-select { position: relative; min-width: 0; width: 100%; }
+.catalog-select > span { display: block; margin-bottom: 7px; font-size: var(--text-sm); color: var(--text-secondary); }
+.catalog-select button { display: flex; align-items: center; gap: 10px; text-align: left; width: 100%; min-height: 46px; padding: 8px 12px; font: inherit; color: var(--text-primary); border: 1px solid var(--border-default); border-radius: 8px; background: var(--bg-surface); cursor: pointer; }
+.catalog-select button > span { flex: 1; min-width: 0; white-space: normal; overflow-wrap: anywhere; }
+.catalog-select button small { display: block; color: var(--text-secondary); font-size: var(--text-xs); margin-top: 4px; }
+.catalog-select-menu { position: absolute; inset: calc(100% + 6px) 0 auto; z-index: 110; padding: 10px; border: 1px solid #766098; border-radius: 10px; background: #202139; box-shadow: 0 14px 32px #0008; }
+.catalog-select-menu input { width: 100%; margin-bottom: 8px; min-height: 40px; padding: 9px 12px; font: inherit; color: var(--text-primary); background: var(--bg-surface); border: 1px solid var(--border-default); border-radius: 8px; }
+.catalog-select-menu input:focus-visible { outline: 2px solid var(--accent-primary); outline-offset: 2px; }
+.catalog-select-options { max-height: 260px; overflow-y: auto; display: grid; gap: 4px; }
+.catalog-select-options button { border-color: transparent; background: transparent; }
+.catalog-select-options button:hover, .catalog-select-options button[aria-pressed=true] { background: #67508750; border-color: #9980bb; }
+.catalog-select-menu--above { top: auto; bottom: calc(100% + 6px); }

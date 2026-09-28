@@ -1,0 +1,745 @@
+{
+  "source": "https://genshin.jmp.blue/weapons/all",
+  "weapons": {
+    "athousandfloatingdreams": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "akuoumaru": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "alleyhunter": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "ambercatalyst": {
+      "location": "Chests",
+      "rarity": 3
+    },
+    "amenomakageuchi": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "amosbow": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "apprenticesnotes": {
+      "location": "Chest",
+      "rarity": 1
+    },
+    "aquasimulacra": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "aquilafavonia": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "balladoftheboundlessblue": {
+      "location": "Event: Waterborne Poetry",
+      "rarity": 4
+    },
+    "balladofthefjords": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "beaconofthereedsea": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "beginnersprotector": {
+      "location": "Chest",
+      "rarity": 1
+    },
+    "blacktassel": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "blackcliffagate": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "blackclifflongsword": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "blackcliffpole": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "blackcliffslasher": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "blackcliffwarbow": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "bloodtaintedgreatsword": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "calamityqueller": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "cashflowsupervision": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "cinnabarspindle": {
+      "location": "Shadows Amidst Snowstorms Event",
+      "rarity": 4
+    },
+    "compoundbow": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "coolsteel": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "cranesechoingcall": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "crescentpike": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "crimsonmoonssemblance": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "darkironsword": {
+      "location": "Talk to Chen the Sharp",
+      "rarity": 3
+    },
+    "deathmatch": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "debateclub": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "dialoguesofthedesertsages": {
+      "location": "Event: Alchemical Ascension",
+      "rarity": 4
+    },
+    "dodocotales": {
+      "location": "Midsummer Island Adventure Event",
+      "rarity": 4
+    },
+    "dragonsbane": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "dragonspinespear": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "dullblade": {
+      "location": "Chest",
+      "rarity": 1
+    },
+    "ebonybow": {
+      "location": "Chests",
+      "rarity": 3
+    },
+    "elegyfortheend": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "emeraldorb": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "endoftheline": {
+      "location": "Sumeru Fishing Association",
+      "rarity": 4
+    },
+    "engulfinglightning": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "everlastingmoonglow": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "eyeofperception": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "fadingtwilight": {
+      "location": "Event: Perilous Trail",
+      "rarity": 4
+    },
+    "favoniuscodex": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "favoniusgreatsword": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "favoniuslance": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "favoniussword": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "favoniuswarbow": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "ferrousshadow": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "festeringdesire": {
+      "location": "Story Quest",
+      "rarity": 4
+    },
+    "filletblade": {
+      "location": "Chests",
+      "rarity": 3
+    },
+    "finaleofthedeep": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "fleuvecendreferryman": {
+      "location": "Fontaine Fishing Association",
+      "rarity": 4
+    },
+    "flowingpurity": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "forestregalia": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "freedomsworn": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "frostbearer": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "fruitoffulfillment": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "hakushinring": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "halberd": {
+      "location": "Chests",
+      "rarity": 3
+    },
+    "hamayumi": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "harangeppakufutsu": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "harbingerofdawn": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "huntersbow": {
+      "location": "Chest",
+      "rarity": 1
+    },
+    "hunterspath": {
+      "location": "Gacha Banner",
+      "rarity": 5
+    },
+    "ibispiercer": {
+      "location": "Event: Duel! The Summoners' Summit!",
+      "rarity": 4
+    },
+    "ironpoint": {
+      "location": "Chest",
+      "rarity": 2
+    },
+    "ironsting": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "jadefallssplendor": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "kagotsurubeisshin": {
+      "location": "Quest: Ere the End, a Glance Back",
+      "rarity": 4
+    },
+    "kagurasverity": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "katsuragikirinagamasa": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "keyofkhajnisut": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "kingssquire": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "kitaincrossspear": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "lightoffoliarincision": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "lionsroar": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "lithicblade": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "lithicspear": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "lostprayertothesacredwinds": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "lumidouceelegy": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "luxurioussealord": {
+      "location": "Moonlight Merriment Event",
+      "rarity": 4
+    },
+    "magicguide": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "mailedflower": {
+      "location": "Windblume's Breath Event",
+      "rarity": 4
+    },
+    "makhairaaquamarine": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "mappamare": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "memoryofdust": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "messenger": {
+      "location": "Chest",
+      "rarity": 3
+    },
+    "missivewindspear": {
+      "location": "Event: Of Ballads and Brews",
+      "rarity": 4
+    },
+    "mistsplitterreforged": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "mitternachtswaltz": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "moonpiercer": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "mouunsmoon": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "oathsworneye": {
+      "location": "Three Realms Gateway Offering Event",
+      "rarity": 4
+    },
+    "oldmercspal": {
+      "location": "Chest",
+      "rarity": 2
+    },
+    "otherworldlystory": {
+      "location": "Chests",
+      "rarity": 3
+    },
+    "pocketgrimoire": {
+      "location": "Chest",
+      "rarity": 2
+    },
+    "polarstar": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "portablepowersaw": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "predator": {
+      "location": "Given via the Mail on PS4/PS5 between Version 2.1–2.2, obtainable on PC/Mobile via cross save",
+      "rarity": 4
+    },
+    "primordialjadecutter": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "primordialjadewingedspear": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "prospectorsdrill": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "prototypeamber": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "prototypearchaic": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "prototypecrescent": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "prototypestarglitter": {
+      "location": "forging",
+      "rarity": 4
+    },
+    "prototyperancour": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "quartz": {
+      "location": "Chests",
+      "rarity": 3
+    },
+    "rainslasher": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "rangegauge": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "ravenbow": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "recurvebow": {
+      "location": "Chest",
+      "rarity": 3
+    },
+    "redhornstonethresher": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "rightfulreward": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "royalbow": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "royalgreatsword": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "royalgrimoire": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "royallongsword": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "royalspear": {
+      "location": "Starglitter Exchange",
+      "rarity": 4
+    },
+    "rust": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "sacrificialbow": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "sacrificialfragments": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "sacrificialgreatsword": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "sacrificialjade": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "sacrificialsword": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "sapwoodblade": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "scionoftheblazingsun": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "seasonedhuntersbow": {
+      "location": "Chest",
+      "rarity": 2
+    },
+    "serpentspine": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "sharpshootersoath": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "silversword": {
+      "location": "Chest",
+      "rarity": 2
+    },
+    "skyridergreatsword": {
+      "location": "Stuck inside a stone in Guyun Stone Forest",
+      "rarity": 3
+    },
+    "skyridersword": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "skywardatlas": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "skywardblade": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "skywardharp": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "skywardpride": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "skywardspine": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "slingshot": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "snowtombedstarsilver": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "solarpearl": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "songofbrokenpines": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "songofstillness": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "splendoroftranquilwaters": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "staffofhoma": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "summitshaper": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "swordofdescension": {
+      "location": "Given via the Mail on PS4/PS5, obtainable on PC/Mobile via cross save",
+      "rarity": 4
+    },
+    "swordofnarzissenkreuz": {
+      "location": "Quest: Waking from the Great Dream",
+      "rarity": 4
+    },
+    "talkingstick": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "thealleyflash": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "thebell": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "theblacksword": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "thecatch": {
+      "location": "Inazuma Fishing Association",
+      "rarity": 4
+    },
+    "thedockhandsassistant": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "thefirstgreatmagic": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "theflute": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "thestringless": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "theunforged": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "theviridescenthunt": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "thewidsith": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "thrillingtalesofdragonslayers": {
+      "location": "Gacha",
+      "rarity": 3
+    },
+    "thunderingpulse": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "tidalshadow": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "tomeoftheeternalflow": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "toukaboushigure": {
+      "location": "Akitsu Kimodameshi Event",
+      "rarity": 4
+    },
+    "travelershandysword": {
+      "location": "Chest",
+      "rarity": 3
+    },
+    "tulaytullahsremembrance": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "twinnephrite": {
+      "location": "Chests",
+      "rarity": 3
+    },
+    "ultimateoverlordsmegamagicsword": {
+      "location": "Event: Roses and Muskets",
+      "rarity": 4
+    },
+    "urakumisugiri": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "verdict": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "vortexvanquisher": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "wanderingevenstar": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "wastergreatsword": {
+      "location": "Chest",
+      "rarity": 1
+    },
+    "wavebreakersfin": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "whiteirongreatsword": {
+      "location": "Chests",
+      "rarity": 3
+    },
+    "whitetassel": {
+      "location": "Chest",
+      "rarity": 3
+    },
+    "whiteblind": {
+      "location": "Crafting",
+      "rarity": 4
+    },
+    "windblumeode": {
+      "location": "Invitation to Windblume (v1.4) Event Shop",
+      "rarity": 4
+    },
+    "wineandsong": {
+      "location": "Gacha",
+      "rarity": 4
+    },
+    "wolffang": {
+      "location": "BP Bounty",
+      "rarity": 4
+    },
+    "wolfsgravestone": {
+      "location": "Gacha",
+      "rarity": 5
+    },
+    "xiphosmoonlight": {
+      "location": "Gacha",
+      "rarity": 4
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.weapon-collection { display: grid; grid-template-columns: repeat(auto-fill, minmax(145px, 1fr)); gap: 12px; align-content: start; }
+.weapon-collection--list { grid-template-columns: 1fr 1fr; }.weapon-collection--list .weapon-select { flex-direction: row; flex-wrap: wrap; }.weapon-collection--list .weapon-select strong { flex: 1; }
+.weapon-collection-card { position: relative; border: 1px solid var(--border-default); border-radius: 10px; background: linear-gradient(160deg, #33243e, #15182a); overflow: hidden; }
+.weapon-collection-card[data-rarity="5"] { background: linear-gradient(160deg, #483a36, #15182a); border-color: #b68d4855; }
+.weapon-collection-card[data-selected="true"] { border-color: #d3b5ef; box-shadow: 0 0 0 2px #9b79c633; }
+.weapon-select { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 10px; width: 100%; height: 100%; color: var(--text-primary); background: transparent; border: 0; text-align: center; cursor: pointer; }
+.weapon-select strong { line-height: 1.35; min-height: 36px; }.weapon-select small { color: var(--text-secondary); }
+.weapon-select .asset-image-container { background: transparent !important; border: 0 !important; }
+.weapon-favorite { position: absolute; top: 5px; right: 5px; color: #dfc294; border: 0; border-radius: 50%; width: 28px; height: 28px; background: #121526cc; cursor: pointer; }
+.weapon-detail { display: flex; align-items: center; flex-direction: column; gap: 14px; text-align: center; position: sticky; top: 0; }
+.weapon-detail dl { width: 100%; display: grid; gap: 12px; }.weapon-detail dl > div { display: flex; justify-content: space-between; gap: 14px; text-align: left; }.weapon-detail dt { color: var(--text-secondary); }.weapon-detail dd { text-align: right; }
+.weapon-detail > button { width: 100%; }

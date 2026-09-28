@@ -1,0 +1,27 @@
+-- Pares explícitos de identidade; não agrupar nomes traduzidos.
+CREATE TEMP TABLE material_aliases_017 (old_id TEXT PRIMARY KEY, canonical_id TEXT NOT NULL);
+INSERT INTO material_aliases_017 VALUES
+('material_cecilia','material_specialty_cecilia'),
+('material_naku_weed','material_specialty_naku_weed'),
+('material_vajrada_amethyst_chunk','material_gem_electro_chunk'),
+('material_nagadus_emerald_chunk','material_gem_dendro_chunk'),
+('material_varunada_lazurite_chunk','material_gem_hydro_chunk'),
+('material_storm_beads','material_boss_storm_beads');
+DELETE FROM material_aliases_017 WHERE canonical_id NOT IN (SELECT id FROM materials);
+CREATE TABLE IF NOT EXISTS material_cleanup_backup (
+ migration_id TEXT PRIMARY KEY, catalog_json TEXT NOT NULL,
+ inventory_json TEXT NOT NULL, created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+INSERT OR IGNORE INTO material_cleanup_backup(migration_id,catalog_json,inventory_json)
+SELECT '017_material_catalog_cleanup',
+ (SELECT COALESCE(json_group_array(json_object('id',m.id,'gameKey',m.game_key,'namePtBr',m.name_pt_br,'iconUrl',m.icon_url)), '[]') FROM materials m JOIN material_aliases_017 a ON m.id=a.old_id),
+ (SELECT COALESCE(json_group_array(json_object('profileId',i.profile_id,'materialId',i.material_id,'quantity',i.quantity,'updatedAt',i.updated_at)), '[]') FROM inventory_items i WHERE i.material_id IN (SELECT old_id FROM material_aliases_017 UNION SELECT canonical_id FROM material_aliases_017));
+INSERT INTO inventory_items(profile_id,material_id,quantity,updated_at)
+SELECT i.profile_id,a.canonical_id,i.quantity,i.updated_at FROM inventory_items i
+JOIN material_aliases_017 a ON i.material_id=a.old_id WHERE 1
+ON CONFLICT(profile_id,material_id) DO UPDATE SET
+quantity=inventory_items.quantity+excluded.quantity,
+updated_at=MAX(inventory_items.updated_at,excluded.updated_at);
+DELETE FROM inventory_items WHERE material_id IN (SELECT old_id FROM material_aliases_017);
+DELETE FROM materials WHERE id IN (SELECT old_id FROM material_aliases_017);
+DROP TABLE material_aliases_017;

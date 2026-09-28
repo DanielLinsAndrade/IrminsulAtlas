@@ -1,0 +1,370 @@
+{
+  "metadataSource": "https://genshin-db-api.vercel.app/api/v5/achievementgroups?query=names&matchCategories=true&resultLanguage=Portuguese&verboseCategories=true",
+  "categories": {
+    "Andarilho do Mundo Mortal - Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A001.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A001.png",
+      "groupId": 1
+    },
+    "A Arte da Aventura": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A002.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A002.png",
+      "groupId": 2
+    },
+    "A Jornada do Herói": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A003.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A003.png",
+      "groupId": 3
+    },
+    "Mondstadt: A Cidade do Vento e da Poesia": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A004.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A004.png",
+      "groupId": 4
+    },
+    "Liyue: O Porto de Pedra e dos Contratos": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A005.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A005.png",
+      "groupId": 5
+    },
+    "Visitante da Montanha Nevada": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A006.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A006.png",
+      "groupId": 16
+    },
+    "Andarilho do Mundo Mortal - Série II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A001_Part2.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A001_Part2.png",
+      "groupId": 22
+    },
+    "Inazuma: A Ilha dos Trovões e da Eternidade - Parte I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A008.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A008.png",
+      "groupId": 24
+    },
+    "Maravilhas do Mundo": {
+      "uri": "/assets/achievements/UI_AchievementIcon_O001.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_O001.png",
+      "groupId": 0
+    },
+    "Inazuma: A Ilha de Trovões e Eternidade - Parte II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A008_Part2.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A008_Part2.png",
+      "groupId": 26
+    },
+    "As Crônicas do Mar de Neblina": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A008_Part3.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A008_Part3.png",
+      "groupId": 27
+    },
+    "Luz do Dia": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A010.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A010.png",
+      "groupId": 28
+    },
+    "Chamas Luminosas": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A011.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A011.png",
+      "groupId": 30
+    },
+    "Sumeru: Floresta da Sabedoria": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A012.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A012.png",
+      "groupId": 31
+    },
+    "Andarilho do Mundo Mortal - Série III": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A001_Part3.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A001_Part3.png",
+      "groupId": 32
+    },
+    "Sumeru: Deserto Dourado — I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A013.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A013.png",
+      "groupId": 35
+    },
+    "Chamado Sagrado dos Sete": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A014.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A014.png",
+      "groupId": 37
+    },
+    "Sumeru: Deserto Dourado — II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A013_Part2.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A013_Part2.png",
+      "groupId": 38
+    },
+    "Proteção dos Espíritos das Areias": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A015.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A015.png",
+      "groupId": 41
+    },
+    "Fontaine: Dança das Fontes Brancas de Orvalho I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A016.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A016.png",
+      "groupId": 42
+    },
+    "Andarilho do Mundo Mortal - Série IV": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A001_Part4.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A001_Part4.png",
+      "groupId": 43
+    },
+    "Fontaine: Dança das Fontes Brancas de Orvalho II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A016_Part2.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A016_Part2.png",
+      "groupId": 45
+    },
+    "Fontaine: Dança das Fontes Brancas de Orvalho III": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A016_Part3.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A016_Part3.png",
+      "groupId": 46
+    },
+    "Esplendor de Chenyu": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A017.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A017.png",
+      "groupId": 47
+    },
+    "Rapsódia no Mar Antigo": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A018.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A018.png",
+      "groupId": 48
+    },
+    "Natlan: A Terra do Fogo e da Competição (I)": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A019.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A019.png",
+      "groupId": 51
+    },
+    "Natlan: A Terra do Fogo e da Competição (II)": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A019_Part2.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A019_Part2.png",
+      "groupId": 55
+    },
+    "Andarilho do Mundo Mortal - Série V": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A001_Part5.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A001_Part5.png",
+      "groupId": 57
+    },
+    "Repertório de Mil Melodias": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A020.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A020.png",
+      "groupId": 58
+    },
+    "Brilho Desvanecente da Montanha Sagrada": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A021.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A021.png",
+      "groupId": 60
+    },
+    "Um Verão de Cinzas e Opúncias": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A022.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A022.png",
+      "groupId": 62
+    },
+    "Nod-Krai: Paraíso de Luar e Peregrinações - I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A023.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A023.png",
+      "groupId": 63
+    },
+    "Andarilho do Mundo Mortal - Série VI": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A001_Part6.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A001_Part6.png",
+      "groupId": 65
+    },
+    "Nod-Krai: Paraíso de Luar e Peregrinações - II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A023_Part2.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A023_Part2.png",
+      "groupId": 66
+    },
+    "Sopro da Montanha Demoníaca": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A024.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A024.png",
+      "groupId": 67
+    },
+    "Crescente Desimpedida": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A025.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A025.png",
+      "groupId": 68
+    },
+    "Snezhnaya: Cidade Sagrada de Gelo e Estrela Azul - I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A026.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A026.png",
+      "groupId": 69
+    },
+    "Andarilho do Mundo Mortal - Série VII": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A001_Part7.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A001_Part7.png",
+      "groupId": 71
+    },
+    "Um Reino Distante - Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A007.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A007.png",
+      "groupId": 18
+    },
+    "Um Reino Distante - Série II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A007_Part2.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A007_Part2.png",
+      "groupId": 19
+    },
+    "Um Reino Distante: Série III": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A007_Part3.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A007_Part3.png",
+      "groupId": 23
+    },
+    "Guia de Pesca de Teyvat - Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A009.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_A009.png",
+      "groupId": 25
+    },
+    "Pontaria": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B002.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B002.png",
+      "groupId": 7
+    },
+    "Desafiante - Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B004.png",
+      "groupId": 8
+    },
+    "Especialista Elemental: Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B001.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B001.png",
+      "groupId": 6
+    },
+    "Domínios e Abismo em Espiral - Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B005.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_B005.png",
+      "groupId": 9
+    },
+    "Desafiante - Série II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004_Part2.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B004_Part2.png",
+      "groupId": 14
+    },
+    "Desafiante - Série III": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004_Part3.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B004_Part3.png",
+      "groupId": 15
+    },
+    "Desafiante - Série IV": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004_Part4.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B004_Part4.png",
+      "groupId": 20
+    },
+    "Desafiante - Série V": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004_Part5.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B004_Part5.png",
+      "groupId": 29
+    },
+    "Desafiante - Série VI": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004_Part6.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B004_Part6.png",
+      "groupId": 34
+    },
+    "Especialista Elemental: Série II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B001_Part2.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B001_Part2.png",
+      "groupId": 36
+    },
+    "Desafiante - Série VII": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004_Part7.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_B004_Part7.png",
+      "groupId": 39
+    },
+    "Desafiante - Série VIII": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004_Part8.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_B004_Part8.png",
+      "groupId": 40
+    },
+    "Desafiante - Série IX": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004_Part9.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_B004_Part9.png",
+      "groupId": 49
+    },
+    "Teatro das Realidades Imaginárias: Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B006.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_B006.png",
+      "groupId": 50
+    },
+    "Teatro das Realidades Imaginárias: Série II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B006_Part2.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_B006_Part2.png",
+      "groupId": 52
+    },
+    "Duelista: Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B007.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_B007.png",
+      "groupId": 54
+    },
+    "Duelista: Série II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B007_Part2.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_B007_Part2.png",
+      "groupId": 56
+    },
+    "Desafiante - Série X": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B004_Part10.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_B004_Part10.png",
+      "groupId": 59
+    },
+    "Duelista: Série III": {
+      "uri": "/assets/achievements/UI_AchievementIcon_B007_Part3.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_B007_Part3.png",
+      "groupId": 61
+    },
+    "Memória do Coração": {
+      "uri": "/assets/achievements/UI_AchievementIcon_E001.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_E001.png",
+      "groupId": 17
+    },
+    "Olah! - Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_C001.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_C001.png",
+      "groupId": 10
+    },
+    "Snezhnaya Não Acredita em Lágrimas -Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_C002.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_C002.png",
+      "groupId": 11
+    },
+    "Nostalgia do Porto de Pedra - Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_C003.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_C003.png",
+      "groupId": 12
+    },
+    "Encontros Fora Deste Mundo - Série I": {
+      "uri": "/assets/achievements/UI_AchievementIcon_D001.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_D001.png",
+      "groupId": 13
+    },
+    "Encontros Fora Deste Mundo - Série II": {
+      "uri": "/assets/achievements/UI_AchievementIcon_D001_Part2.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_D001_Part2.png",
+      "groupId": 21
+    },
+    "Encontros Fora Deste Mundo - Série III": {
+      "uri": "/assets/achievements/UI_AchievementIcon_D001_Part3.png",
+      "source": "https://enka.network/ui/UI_AchievementIcon_D001_Part3.png",
+      "groupId": 33
+    },
+    "Encontros Fora Deste Mundo - Série IV": {
+      "uri": "/assets/achievements/UI_AchievementIcon_D001_Part4.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_D001_Part4.png",
+      "groupId": 44
+    },
+    "Encontros Fora Deste Mundo - Série V": {
+      "uri": "/assets/achievements/UI_AchievementIcon_D001_Part5.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_D001_Part5.png",
+      "groupId": 53
+    },
+    "Encontros Fora Deste Mundo - Série VI": {
+      "uri": "/assets/achievements/UI_AchievementIcon_D001_Part6.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_D001_Part6.png",
+      "groupId": 64
+    },
+    "Terra das Sombras em Movimento": {
+      "uri": "/assets/achievements/UI_AchievementIcon_A027.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_A027.png",
+      "groupId": 70
+    },
+    "Encontros Fora Deste Mundo - Série VII": {
+      "uri": "/assets/achievements/UI_AchievementIcon_D001_Part7.png",
+      "source": "https://seelie.me/img/achievements/UI_AchievementIcon_D001_Part7.png",
+      "groupId": 72
+    }
+  }
+}

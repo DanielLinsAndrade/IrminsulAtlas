@@ -1,0 +1,12 @@
+.character-art { overflow: hidden; min-width: 0; background: radial-gradient(ellipse at 50% 60%, #8b74b822, transparent 70%); }
+.character-art > img { display: block; width: 100%; height: 100%; object-fit: contain; mask-image: linear-gradient(#000 72%, transparent 100%); }
+.character-art[data-splash="true"] > img { object-fit: cover; }
+.character-art[data-splash="false"] > img { padding: 0; object-fit: cover; }
+.character-art > .asset-image-container img { object-fit: cover !important; object-position: 50% 35%; mask-image: linear-gradient(#000 72%, transparent 100%); }
+.character-art { position: relative; }
+.character-art[data-presentation="integrated"] { overflow: visible; background: none; isolation: isolate; }
+.character-art-plane { width: 100%; height: 100%; overflow: hidden; mask-image: linear-gradient(#000 72%, transparent); }
+.character-art-plane > img { display: block; width: 100%; height: 100%; pointer-events: none; }
+.character-art[data-presentation="integrated"] > .character-art-plane { position: absolute; width: 240%; max-width: 900px; left: 50%; transform: translateX(-50%); top: 0; height: 100%; pointer-events: none; mask-image: radial-gradient(ellipse at 48% 45%, #000 28%, #000d 48%, transparent 74%); }
+.character-art[data-presentation="integrated"] > .character-art-atmosphere { position: absolute; width: 300%; max-width: none; left: -65%; height: 100%; object-fit: contain; opacity: .22; filter: blur(12px); pointer-events: none; mask-image: radial-gradient(ellipse at 40% 45%, #000 12%, transparent 68%); }
+.art-edit-button { position: absolute; z-index: 3; top: 8px; left: 8px; border: 1px solid #ffffff40; border-radius: 6px; color: #fff; background: #15172ac9; padding: 6px; cursor: pointer; }

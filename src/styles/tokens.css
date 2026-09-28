@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Irminsul Atlas — Design Tokens (Tema Cósmico / Genshin Inspired)
+   ========================================================================== */
+:root {
+  /* Tipografia */
+  --font-sans: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+
+  --text-2xs: 11px;
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 14px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-hero: 36px;
+  --leading-tight: 1.2;
+  --leading-label: 1.35;
+  --leading-body: 1.5;
+  --tracking-title: -.02em;
+  --tracking-label: .01em;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Cores de Fundo (Paleta Azul-Marinho Profundo / Violeta Noturno) */
+  --bg-canvas: #0b0c16;
+  --bg-canvas-gradient: radial-gradient(circle at 85% 12%, rgba(139, 92, 246, 0.12) 0%, transparent 45%),
+                        radial-gradient(circle at 10% 88%, rgba(99, 102, 241, 0.08) 0%, transparent 45%),
+                        #0b0c16;
+  --bg-sidebar: #101122;
+  --bg-header: rgba(16, 17, 34, 0.85);
+  --bg-surface: #15162a;
+  --bg-surface-translucent: rgba(21, 22, 42, 0.78);
+  --bg-surface-elevated: #1b1d36;
+  --bg-surface-hover: #222544;
+  --bg-surface-active: #292d52;
+
+  /* Bordas Refinadas */
+  --border-subtle: rgba(139, 92, 246, 0.12);
+  --border-default: rgba(139, 92, 246, 0.22);
+  --border-strong: rgba(168, 85, 247, 0.4);
+  --border-focus: #a855f7;
+  --border-highlight: rgba(255, 255, 255, 0.08);
+
+  /* Cores de Texto */
+  --text-primary: #f5f6fc;
+  --text-secondary: #b2b8d0;
+  --text-muted: #737b98;
+  --text-disabled: #464c64;
+  --text-glow: #e0e7ff;
+
+  /* Destaque Violeta / Lilás / Celestial (Assinatura Irminsul Atlas) */
+  --accent-primary: #8b5cf6;
+  --accent-primary-hover: #9d74ff;
+  --accent-primary-active: #7c3aed;
+  --accent-primary-glow: rgba(139, 92, 246, 0.35);
+  --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+  --accent-gradient-active: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+  --accent-subtle: rgba(139, 92, 246, 0.15);
+  --accent-border: rgba(139, 92, 246, 0.35);
+
+  /* Cores do Universo do Jogo (Genshin Elements & Rarities) */
+  --rarity-5: #e6a23c;
+  --rarity-5-glow: rgba(230, 162, 60, 0.3);
+  --rarity-5-subtle: rgba(230, 162, 60, 0.15);
+  --rarity-5-border: rgba(230, 162, 60, 0.4);
+
+  --rarity-4: #a855f7;
+  --rarity-4-glow: rgba(168, 85, 247, 0.3);
+  --rarity-4-subtle: rgba(168, 85, 247, 0.15);
+  --rarity-4-border: rgba(168, 85, 247, 0.4);
+
+  --rarity-3: #3b82f6;
+  --rarity-3-glow: rgba(59, 130, 246, 0.3);
+  --rarity-3-subtle: rgba(59, 130, 246, 0.15);
+  --rarity-3-border: rgba(59, 130, 246, 0.4);
+
+  /* Status Semânticos */
+  --color-success: #10b981;
+  --color-success-subtle: rgba(16, 185, 129, 0.15);
+  --color-success-border: rgba(16, 185, 129, 0.35);
+  --color-warning: #f59e0b;
+  --color-warning-subtle: rgba(245, 158, 11, 0.15);
+  --color-warning-border: rgba(245, 158, 11, 0.35);
+  --color-danger: #f43f5e;
+  --color-danger-subtle: rgba(244, 63, 94, 0.15);
+  --color-danger-border: rgba(244, 63, 94, 0.35);
+  --color-info: #38bdf8;
+  --color-info-subtle: rgba(56, 189, 248, 0.15);
+  --color-info-border: rgba(56, 189, 248, 0.35);
+
+  /* Espaçamento e Dimensões */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  --sidebar-width: 256px;
+  --sidebar-width-collapsed: 72px;
+  --header-height: 60px;
+  --content-max-width: 1440px;
+
+  /* Sombras Cósmicas */
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.6);
+  --shadow-glow-violet: 0 0 20px rgba(139, 92, 246, 0.28);
+  --shadow-glow-gold: 0 0 20px rgba(230, 162, 60, 0.25);
+
+  /* Transições */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 240ms cubic-bezier(0.4, 0, 0.2, 1);
+}

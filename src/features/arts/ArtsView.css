@@ -1,0 +1,23 @@
+.art-association-fields, .art-association-controls { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin: 22px 0; }
+.art-association-fields label, .art-association-controls label { display: flex; flex-direction: column; gap: 8px; min-width: 0; color: var(--text-secondary); font-size: var(--text-sm); }
+.art-association-fields select, .art-association-fields input { width: 100%; min-width: 0; min-height: 42px; }
+.art-association-file { grid-column: 1 / -1; }
+.art-association-file input { padding: 10px; border: 1px solid var(--border-default); border-radius: 8px; overflow: hidden; text-overflow: ellipsis; }
+.art-association-controls label { padding: 14px; border: 1px solid var(--border-default); border-radius: 10px; background: var(--bg-surface); }
+.art-association-controls output { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.art-association-controls input { width: 100%; accent-color: #a78bfa; }
+.art-association-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 12px; padding: 6px 0; }
+@media (max-width: 760px) { .art-association-fields, .art-association-controls { grid-template-columns: 1fr; } }
+.art-library-backup { display: grid; gap: 16px; margin-top: 18px; justify-items: start; }
+.art-library-backup label { display: grid; gap: 8px; width: 100%; max-width: 620px; color: var(--text-secondary); }
+.art-library-backup input { width: 100%; min-width: 0; padding: 10px; background: var(--bg-surface); border: 1px solid var(--border-default); border-radius: 8px; }
+.arts-library > article { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.arts-library h3 { margin: 4px 0 0; text-align: center; }
+.arts-library p { text-align: center; overflow-wrap: anywhere; margin: 0 0 auto; }
+.arts-library > article > button { width: 100%; margin: 0; }
+.art-association-controls input[type="range"] { appearance: none; display: block; width: 100%; height: 18px; min-height: 0; margin: 0; padding: 0; border: 0; background: transparent; cursor: pointer; }
+.art-association-controls input[type="range"]::-webkit-slider-runnable-track { height: 6px; background: #3d3658; border-radius: 8px; }
+.art-association-controls input[type="range"]::-webkit-slider-thumb { appearance: none; width: 18px; height: 18px; margin-top: -6px; border: 2px solid #e0ccff; border-radius: 50%; background: #a782ee; }
+.art-association-controls input[type="range"]::-moz-range-track { height: 6px; background: #3d3658; border-radius: 8px; }
+.art-association-controls input[type="range"]::-moz-range-thumb { width: 14px; height: 14px; border: 2px solid #e0ccff; border-radius: 50%; background: #a782ee; }
+.art-association-controls input[type="range"]:focus-visible { outline: 2px solid #bca2f0; outline-offset: 4px; border-radius: 6px; }
